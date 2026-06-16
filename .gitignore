@@ -34,3 +34,20 @@ src/renderer/services/analytics/*
 open_ai.http
 
 tests/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
